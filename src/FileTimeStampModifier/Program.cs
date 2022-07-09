@@ -15,6 +15,9 @@
         }
     }
 
+    /// <summary>
+    /// </summary>
+    /// <see cref="https://dobon.net/vb/dotnet/control/lvitemsort.html"/>
     public class ListViewItemComparer : System.Collections.IComparer
     {
 
@@ -113,7 +116,6 @@
         /// <param name="col">並び替える列の番号</param>
         /// <param name="ord">昇順か降順か</param>
         /// <param name="cmod">並び替えの方法</param>
-        /// <see cref="https://dobon.net/vb/dotnet/control/lvitemsort.html"/>
         public ListViewItemComparer(
             int col, SortOrder ord, ComparerMode cmod)
         {
